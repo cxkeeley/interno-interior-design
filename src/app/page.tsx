@@ -1,9 +1,9 @@
 import Navbar from '../components/navbar/navbar'
 import Hero from '../components/hero-section/hero'
 import Pages from '../components/pages/page'
+import About from '../components/about/about'
 
 export default function Home() {
-
   return (
     <body className="bg-gray-100">
       {/* placed here to avoid overflow issues */}
@@ -12,7 +12,8 @@ export default function Home() {
         {/* temporary grid */}
         <div className="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-25"></div>
         <Hero />
-        <Pages/>
+        <Pages />
+        <About />
         <div className="h-[3000px]"></div>
       </main>
     </body>
