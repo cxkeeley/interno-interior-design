@@ -45,7 +45,7 @@ const footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end xxl:max-w-[100px]">
+          <div className="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end xxl:max-w-[44rem]">
             <div>
               <h3 className="h3 mb-3">Pages</h3>
               <ul className="flex flex-col gap-4">
