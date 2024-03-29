@@ -8,12 +8,12 @@ import { RiArrowRightSLine } from '@remixicon/react'
 const project = () => {
   return (
     <section className="mt-[80px] xl:mt-[150px] xl:mb-[-20px] relative z-20">
-      <div className="container mx-auto max-w-full xl:px-0">
+      <div className="container flex flex-col justify-center max-w-full xl:px-0 border">
         <div className='text-center mb-24'>
           <h2 className='h2 mb-4'>Follow Our Projects</h2>
           <p className='max-w-2xl mx-auto'>It is a long established fact that a reader will be distracted by the of readable content of page  lookings at its layouts  points.</p>
         </div>
-        <div className='grid grid-cols-1 xl:grid-cols-2 gap-[10rem] max-w-[75rem] justify-between items-center mx-[20px] md:ml-[240px] xxxl:ml-[360px] xxl:ml-[340px] xl:ml-[120px]'>
+        <div className='grid grid-cols-1 xl:grid-cols-2 gap-[10rem] max-w-[75rem] justify-center items-center mx-auto'>
           <div className="w-full max-w-[548] h-full mx-auto">
             <Image className="mb-6" src={Project01} alt="project 1 duhh" />
             <div className='flex justify-between items-center w-full'>
