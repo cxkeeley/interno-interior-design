@@ -2,6 +2,7 @@ import Navbar from '../components/navbar/navbar'
 import Hero from '../components/hero-section/hero'
 import Pages from '../components/pages/page'
 import About from '../components/about/about'
+import Testimonial from '@/components/testimonial/testimonial'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <Pages />
         <About />
+        <Testimonial></Testimonial>
         <div className="h-[3000px]"></div>
       </main>
     </body>
