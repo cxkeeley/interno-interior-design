@@ -22,7 +22,7 @@ const project = () => {
                 <p>Decor/Architechture</p>
               </div>
               <button className='bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full items-center'>
-                <RiArrowRightSLine color='#292F36' size={36} className='pl-1 '/>
+                <RiArrowRightSLine color='#292F36' size={36} className='ml-4 '/>
               </button>
             </div>
           </div>
@@ -35,7 +35,7 @@ const project = () => {
                 <p>Decor/Architechture</p>
               </div>
               <button className='bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full items-center'>
-                <RiArrowRightSLine color='#292F36' size={36} className='pl-1'/>
+                <RiArrowRightSLine color='#292F36' size={36} className='ml-4'/>
               </button>
             </div>
           </div>
@@ -48,7 +48,7 @@ const project = () => {
                 <p>Decor/Architechture</p>
               </div>
               <button className='bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full items-center'>
-                <RiArrowRightSLine color='#292F36' size={36} className='pl-1'/>
+                <RiArrowRightSLine color='#292F36' size={36} className='ml-4'/>
               </button>
             </div>
           </div>
@@ -61,7 +61,7 @@ const project = () => {
                 <p>Decor/Architechture</p>
               </div>
               <button className='bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full items-center'>
-                <RiArrowRightSLine color='#292F36' size={36} className='pl-1'/>
+                <RiArrowRightSLine color='#292F36' size={36} className='ml-4'/>
               </button>
             </div>
           </div>

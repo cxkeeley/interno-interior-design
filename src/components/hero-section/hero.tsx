@@ -9,7 +9,7 @@ const hero = () => {
             <h1 className="h1 mb-8">Let Your Home Be Unique</h1>
             <p className="mb-8">
               There are many variations of the passages of lorem Ipsum
-              fromavailable, majority.
+              from available, majority.
             </p>
             <button className="btn btn-primary mx-auto xl:mx-0">Get Started <RiArrowRightLine size={36} color='#CDA274'/></button>
           </div>

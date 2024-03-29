@@ -5,6 +5,10 @@ import About from '../components/about/about'
 import Testimonial from '@/components/testimonial/testimonial'
 import Brand from '@/components/client-logo/brand'
 import Project from '@/components/Project/project'
+import Stats from '@/components/stats/stats'
+import News from '@/components/news/news'
+import Contact from '@/components/contact/contact'
+import Footer from '@/components/footer/footer'
 
 export default function Home() {
   return (
@@ -20,7 +24,10 @@ export default function Home() {
         <Testimonial/>
         <Brand/>
         <Project/>
-        <div className="h-[3000px]"></div>
+        <Stats/>
+        <News/>
+        <Contact/>
+        <Footer/>
       </main>
     </body>
   )

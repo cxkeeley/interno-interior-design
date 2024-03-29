@@ -20,8 +20,15 @@ h1,h2,h3,h4,h5,h6 {
   @apply text-[64px] lg:text-[84px] leading-none;
 }
 
+.h1-extra {
+  @apply text-[55px]
+}
+
 .h2 {
   @apply text-[50px] leading-tight;
+}
+.h2-extra {
+  @apply text-[40px] leading-tight;
 }
 
 .h3 {
