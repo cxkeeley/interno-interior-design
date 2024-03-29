@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 
-:root {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   @apply font-secondary text-[22px] text-secondary;

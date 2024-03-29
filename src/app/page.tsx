@@ -4,6 +4,7 @@ import Pages from '../components/pages/page'
 import About from '../components/about/about'
 import Testimonial from '@/components/testimonial/testimonial'
 import Brand from '@/components/client-logo/brand'
+import Project from '@/components/Project/project'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <Testimonial/>
         <Brand/>
+        <Project/>
         <div className="h-[3000px]"></div>
       </main>
     </body>
