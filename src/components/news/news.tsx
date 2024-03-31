@@ -5,7 +5,7 @@ import News02 from '../../img/news02.png'
 import News03 from '../../img/news03.png'
 import { RiArrowRightSLine } from '@remixicon/react'
 
-const news = () => {
+const News = () => {
   return (
     <section className="mt-[80px] xl:mt-[150px] xl:mb-[-20px] relative z-20">
       <div className="container mx-auto">
@@ -80,4 +80,4 @@ const news = () => {
   )
 }
 
-export default news
+export default News

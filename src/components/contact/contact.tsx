@@ -1,7 +1,7 @@
 import { RiArrowRightLine } from '@remixicon/react'
 import React from 'react'
 
-const contact = () => {
+const Contact = () => {
   return (
     <section className="mt-[80px] xl:mt-[170px] xl:mb-[-20px] relative z-20">
       <div className="container mx-auto bg-primary xl:rounded-[70px] py-[80px] max-w-[75rem]">
@@ -20,4 +20,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

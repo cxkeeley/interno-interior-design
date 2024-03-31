@@ -8,7 +8,7 @@ import {
   RiInstagramLine,
 } from '@remixicon/react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="mt-[80px] xl:mt-[150px] xl:mb-[-20px] relative z-20">
       <div className="container mx-auto px-0">
@@ -103,4 +103,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

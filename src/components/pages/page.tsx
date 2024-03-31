@@ -1,7 +1,7 @@
 import { RiArrowRightLine } from '@remixicon/react'
 
 
-const page = () => {
+const Page = () => {
   return (
     <section className="steps mt-[80px] xl:mt-[200px] relative z-20">
       <div className="container mx-auto">
@@ -36,4 +36,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

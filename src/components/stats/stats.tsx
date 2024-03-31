@@ -1,6 +1,6 @@
 import React from 'react'
 
-const stats = () => {
+const Stats = () => {
   return (
     <section className='mt-[100px] xl:mt-[230px] xl:mb-[-20px] relative z-20 bg-accent-secondary py-[80px] xl:py-[150px]'>
       <div className="container mx-auto">
@@ -21,10 +21,10 @@ const stats = () => {
             <h3 className='h1 mb-5 font-primary text-accent'>95</h3>
             <p>Happy Customers</p>
           </div>
-        </div>  
+        </div>
       </div>
     </section>
   )
 }
 
-export default stats
+export default Stats

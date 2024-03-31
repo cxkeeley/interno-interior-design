@@ -5,7 +5,7 @@ import Project03 from '../../img/project3.png'
 import Project04 from '../../img/project4.png'
 import { RiArrowRightSLine } from '@remixicon/react'
 
-const project = () => {
+const Project = () => {
   return (
     <section className="mt-[80px] xl:mt-[150px] xl:mb-[-20px] relative z-20">
       <div className="container flex flex-col justify-center max-w-full xl:px-0 border">
@@ -71,4 +71,4 @@ const project = () => {
   )
 }
 
-export default project
+export default Project

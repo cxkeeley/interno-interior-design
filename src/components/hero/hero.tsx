@@ -1,6 +1,6 @@
 import { RiArrowRightLine } from '@remixicon/react'
 
-const hero = () => {
+const Hero = () => {
   return (
     <>
       <section className="h-[640px] xl:h-[840px] bg-hero-background bg-center lg:bg-cover bg-no-repeat xl:rounded-bl-[290px] relative z-20">
@@ -19,4 +19,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero

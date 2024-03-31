@@ -6,7 +6,7 @@ import Logo05 from '../../img/05.svg'
 import Image from 'next/image'
 
 
-const brand = () => {
+const Brand = () => {
   return (
     <section className="mt-[90px] xl:mt-[190px] relative z-20">
       <div className="container mx-auto">
@@ -22,4 +22,4 @@ const brand = () => {
   )
 }
 
-export default brand
+export default Brand

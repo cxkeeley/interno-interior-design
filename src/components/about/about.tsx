@@ -3,7 +3,7 @@ import Image from 'next/image'
 import img from '../../img/img.png'
 import { RiArrowRightLine, RiPhoneLine } from '@remixicon/react'
 
-const about = () => {
+const About = () => {
   return (
     <section className="mt-[90px] xl:mt-[200px] relative z-20">
       <div className="container mx-auto xl:px-0 xxl:max-w-[1200px]">
@@ -42,4 +42,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

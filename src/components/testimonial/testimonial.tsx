@@ -3,7 +3,7 @@ import User02 from '../../img/02.png'
 import User03 from '../../img/03.png'
 import Image from 'next/image'
 
-const testimonial = () => {
+const Testimonial = () => {
   return (
     <section className="mt-[100px] xl:mt-[230px] xl:mb-[-20px] relative z-20">
       <div
@@ -63,4 +63,4 @@ const testimonial = () => {
   )
 }
 
-export default testimonial
+export default Testimonial
