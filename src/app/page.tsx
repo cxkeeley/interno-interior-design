@@ -1,5 +1,5 @@
 import Navbar from '../components/navbar/navbar'
-import Hero from '../components/hero-section/hero'
+import Hero from '../components/hero/hero'
 import Pages from '../components/pages/page'
 import About from '../components/about/about'
 import Testimonial from '@/components/testimonial/testimonial'
