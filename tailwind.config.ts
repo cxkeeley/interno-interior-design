@@ -1,19 +1,19 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'hero-background': "url('../img/Background-hero.jpg')",
-        'grid': "url('../img/grid.png')",
+        grid: "url('../img/grid.png')",
       },
       colors: {
         primary: {
@@ -24,12 +24,12 @@ const config: Config = {
         accent: {
           DEFAULT: '#CDA274',
           secondary: '#F4F0EC',
-          hover: '#b88c5d'
-        }
+          hover: '#b88c5d',
+        },
       },
       fontFamily: {
-        primary: "DM Serif Display",
-        secondary: "Jost"
+        primary: 'DM Serif Display',
+        secondary: 'Jost',
       },
       screens: {
         sm: '640px',
@@ -38,9 +38,9 @@ const config: Config = {
         xl: '1200px',
         xxl: '1500px',
         xxxl: '2000px',
-      }
+      },
     },
   },
   plugins: [],
-};
-export default config;
+}
+export default config
