@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   @apply font-secondary text-[22px] text-secondary;
 }

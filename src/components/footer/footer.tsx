@@ -12,7 +12,7 @@ const footer = () => {
   return (
     <footer className="mt-[80px] xl:mt-[150px] xl:mb-[-20px] relative z-20">
       <div className="container mx-auto px-0">
-        <div className="flex flex-col justify-center xl:flex-row xl:gap-[100px] xl:mb-[150px] border">
+        <div className="flex flex-col justify-center items-center xl:flex-row xl:gap-[100px] xl:mb-[150px]">
           <div className="w-full max-w-[400px] mb-8 text-center xl:text-left">
             <a className="flex justify-center xl:justify-start mb-8" href="">
               <Image src={Logo} alt="its just a logo duh"></Image>
